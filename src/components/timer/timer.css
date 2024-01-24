@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Press+Start+2P&family=Ubuntu&display=swap");
 
+@keyframes myfirst {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 10px;
+  }
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -13,13 +21,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   width: 80%;
+  animation: myfirst 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 .eventlogo {
   width: 700px;
   height: 150px;
   object-fit: cover;
+  animation: myfirst 3s;
 }
 
 .timerContainer {
