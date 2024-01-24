@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Press+Start+2P&family=Ubuntu&display=swap");
 
 @keyframes myfirst {
-  from {
-    top: -200px;
+  0% {
+    opacity: 0;
   }
-  to {
-    top: 10px;
+  100% {
+    opacity: 1;
   }
 }
 .wrapper {
@@ -23,9 +23,7 @@
   align-items: center;
   position: relative;
   width: 80%;
-  animation: myfirst 3s;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
+  animation: myfirst 8s;
 }
 
 .eventlogo {
