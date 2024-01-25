@@ -140,6 +140,7 @@
   padding: 10px;
   width: 100%;
   height: 100%;
+  box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
 }
 
 .registerContainer {

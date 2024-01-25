@@ -10,7 +10,9 @@ const Sponsors = () => {
         <img className="logo" src="assets/gfg.png" alt="" />
         <img className="logo" src="assets/aptoslogo.jpg" alt="" />
         <img className="logo" src="assets/gfg.png" alt="" />
-        <img className="logo" src="assets/polygonlogo.png" alt="" />
+        <div className="nextl">
+          <img className="logo" src="assets/polygonlogo.png" alt="" />
+        </div>
       </div>
     </div>
   );
