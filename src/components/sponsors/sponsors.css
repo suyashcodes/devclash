@@ -2,12 +2,14 @@
   font-family: myFont;
   src: url(../../../public/assets/fonts/vtks.ttf);
 }
-.wrapper {
+.wrap-sponsors {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-top: 70px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -34,4 +36,26 @@
   width: auto;
   object-fit: cover;
   margin: 0 90px 50px 0;
+}
+
+@media (max-width: 768px) {
+  .wrap-sponsors {
+    max-width: 100%;
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  .titleSponsors {
+    justify-content: center;
+  }
+  .logo {
+    margin: 0 0 15px 0;
+    object-fit: cover;
+  }
+  .domainHeading {
+    font-size: 60px;
+  }
+  .polygon,
+  .aptos {
+    width: 95%;
+  }
 }

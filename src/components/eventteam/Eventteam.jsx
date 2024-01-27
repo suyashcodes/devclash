@@ -2,7 +2,7 @@ import "./eventteam.css";
 
 const EventTeam = () => {
   return (
-    <div className="eventteam">
+    <div className="eventteam" id="team">
       <h1 className="eventteam-title">Event Team</h1>
       <div className="eventteam-container">
         <div className="eventteam-card">

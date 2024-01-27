@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 70px;
+  margin-bottom: 20px;
 }
 
 @font-face {
@@ -49,10 +51,10 @@
 }
 .eventteam-img {
   width: 100%;
-  height: 230px; /* Maintain the desired height */
+  height: 200px; /* Maintain the desired height */
   object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border: 10px;
+  /* border-top-right-radius: 10px; */
 }
 .eventteam-name {
   padding: 0;
@@ -88,4 +90,16 @@
   /* margin: 10px; */
   cursor: pointer;
   object-fit: cover;
+}
+@media (max-width: 768px) {
+  .eventteam {
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  .eventteam-title {
+    font-size: 60px;
+  }
+  .eventteam-card {
+    margin-right: 0px;
+  }
 }
