@@ -2,7 +2,6 @@
   width: 100%;
   padding-top: 70px;
   margin-bottom: 20px;
-  margin-top: -10%;
 }
 .eventContainer {
   display: flex;
@@ -185,6 +184,6 @@
     width: 100%;
   }
   .aboutContent {
-    margin-top: 25px;
+    margin-top: 30px;
   }
 }
