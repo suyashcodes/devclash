@@ -40,8 +40,10 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="wrapper">
+    <div className="wrap-timer" id="home">
       <div className="headingCont">
+        <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
+        <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
         <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
       </div>
       <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1>

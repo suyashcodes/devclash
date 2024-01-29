@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
-import Timer from "./components/timer/Timer";
+// import Timer from "./components/timer/Timer";
 import Video from "./components/background/Video";
 import Domain from "./components/domain/Domain";
 import Sponsors from "./components/sponsors/Sponsors";
@@ -20,6 +20,7 @@ const App = () => {
       <Video />
       <Navbar />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<Aboutevent />} />
         <Route path="/schedule" element={<Schedule />} />

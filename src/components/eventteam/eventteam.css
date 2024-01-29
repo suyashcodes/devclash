@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 70px;
+  margin-bottom: 20px;
 }
 
 @font-face {
@@ -88,4 +90,16 @@
   /* margin: 10px; */
   cursor: pointer;
   object-fit: cover;
+}
+@media (max-width: 768px) {
+  .eventteam {
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  .eventteam-title {
+    font-size: 60px;
+  }
+  .eventteam-card {
+    margin-right: 0px;
+  }
 }

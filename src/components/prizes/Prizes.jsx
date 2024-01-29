@@ -2,7 +2,7 @@ import "./prizes.css";
 
 const Prizes = () => {
   return (
-    <div className="prizes">
+    <div className="prizes" id="prizes">
       <h1 className="prizes-title">Prizes</h1>
       <div className="prizes-container">
         <div className="prizes-card">

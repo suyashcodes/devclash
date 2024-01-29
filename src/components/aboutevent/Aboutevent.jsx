@@ -4,14 +4,13 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
 const Aboutevent = () => {
   return (
-    <div className="wrapper">
+    <div className="wrap-about-us" id="about">
       <div className="eventContainer">
         <div className="eventSection">
           <h1 className="eventHeading">About Event</h1>
           <p className="eventPara">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt
-            utututututututututututututututututututututututututututututututututut
+            eiusmod tempor incididunt ututututututututututututututututututututut
             labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua.
@@ -32,7 +31,7 @@ const Aboutevent = () => {
             />
           </a>
         </div>
-        <div className="eventSection">
+        <div className="eventSection withTiming">
           <h1 className="eventHeading">Event Timing</h1>
           <div className="timingCont">
             <CalendarMonthIcon className="icon" />

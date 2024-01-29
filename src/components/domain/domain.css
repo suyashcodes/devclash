@@ -1,49 +1,68 @@
-@font-face{
-    font-family: myFont;
-    src: url(../../../public/assets/fonts/vtks.ttf);
+@font-face {
+  font-family: myFont;
+  src: url(../../../public/assets/fonts/vtks.ttf);
 }
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.wrap-domain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 70px;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.domainHeading {
+  /* font-weight: bold; */
+  font-size: 80px;
+  color: rgb(251, 112, 62);
+  font-family: myFont;
+}
+
+.trackBoxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.trackBox {
+  background-color: rgba(209, 100, 60, 0.15);
+  box-shadow: 1px 1px 5px 3px rgba(251, 112, 62, 0.3);
+  width: 250px;
+  border-radius: 15px;
+  margin: 0 60px 60px 0;
+}
+
+.trackHeading {
+  padding: 0;
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(251, 112, 62);
+  margin: 10px 0;
+}
+.trackDesc {
+  padding: 0;
+  margin: 0px 20px 15px 20px;
+  font-size: 15px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .trackBox {
+    width: 75%;
+  }
+  .wrap-domain {
     width: 100%;
-}
-
-.container{
-    display: flex;
-}
-
-.domainHeading{
-    /* font-weight: bold; */
-    font-size: 80px;
-    color: rgb(251,112,62);
-    font-family: myFont;
-}
-
-.trackBoxes{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-}
-
-.trackBox{
-    background-color: rgb(209, 100, 60);
-    width: 250px;
-    border-radius: 15px;
-    margin: 0 60px 60px 0;
-}
-
-.trackHeading{
-    padding: 0;
-    margin: 10px 0 5px 0;
-    font-size: 22px;
-    text-align: center;
-}
-.trackDesc{
-    padding: 0;
-    margin: 0px 20px 15px 20px;
-    font-size: 15px;
-    
+    padding-top: 70px;
+    margin-bottom: 5px;
+  }
+  .trackBox {
+    margin-right: 0px;
+  }
 }

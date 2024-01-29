@@ -8,6 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 70px;
+  margin-bottom: 20px;
 }
 
 .prizes-title {
@@ -51,4 +53,17 @@
   padding: 10px 0 0 0;
   margin: 0;
   /* border-top: 2px solid rgb(251, 112, 62); */
+}
+@media (max-width: 768px) {
+  .prizes {
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  .prizes-title {
+    font-size: 40px;
+  }
+  .prizes-card {
+    margin: 0 10px 15px 10px;
+    width: 80%;
+  }
 }
