@@ -8,13 +8,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding-top: 25px;
+  margin-bottom: 20px;
 }
 
 .scheduleTitle {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px !important;
   color: rgb(251, 112, 62);
   font-family: myFont;
+  margin: 40px 0;
 }
 
 .scheduleContainer {
@@ -74,9 +77,10 @@
     width: 75%;
   }
   .scheduleTitle {
-    font-size: 60px;
+    font-size: 70px !important;
   }
   .schedule {
-    margin-top: 150px;
+    padding-top: 25px;
+    margin-bottom: 20px;
   }
 }

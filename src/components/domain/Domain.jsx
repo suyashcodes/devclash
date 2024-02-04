@@ -3,7 +3,7 @@ import "./domain.css";
 const Domain = () => {
   return (
     <>
-      <div className="wrap-domain">
+      <div className="wrap-domain" id="domain">
         <div>
           <div className="domainHeading">TRACKS</div>
         </div>

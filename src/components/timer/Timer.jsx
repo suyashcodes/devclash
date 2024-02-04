@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import "./timer.css";
 const Timer = () => {
   const [days, setDays] = useState(0);
@@ -7,7 +8,7 @@ const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const registrationDeadline = new Date("2024-02-14T00:00:00"); // Set your registration deadline here
+    const registrationDeadline = new Date("2024-02-10T10:00:00"); // Set your registration deadline here
 
     const calculateTimeRemaining = () => {
       const currentTime = new Date();
@@ -40,7 +41,7 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="wrap-timer">
+    <div className="wrap-timer" id="home">
       <div className="headingCont">
         <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
         <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
@@ -66,7 +67,14 @@ const Timer = () => {
         </div>
       </div>
       <div className="registerContainer">
-        <button className="registerButton">Participate Now</button>
+        <a
+          className="partii"
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdetrl2h7xCSDs7yo3NeaPh0e1Y2dFvY2o3PwrgIHZ_ILG0wQ/viewform?usp=sf_link"
+          rel="noreferrer"
+        >
+          <button className="registerButton">Participate Now</button>
+        </a>
       </div>
     </div>
   );

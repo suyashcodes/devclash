@@ -16,195 +16,178 @@ const Navbar = () => {
         <div className="nav-elements">
           <ul className="sidebar">
             <li>
-              <NavLink
-                to="/home"
-                className="sideLinks"
-                activeClassName="activeLink"
+              <svg
+                className="close-btn"
+                onClick={closeSidebar}
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                viewBox="0 -960 960 960"
+                width="30"
+                fill="white"
               >
-                <svg
-                  className="close-btn"
-                  onClick={closeSidebar}
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  viewBox="0 -960 960 960"
-                  width="30"
-                  fill="white"
-                >
-                  <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-                </svg>
-              </NavLink>
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+              </svg>
             </li>
             <li>
-              <NavLink
+              <a
                 onClick={closeSidebar}
-                to="/home"
+                href="#home"
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 Home
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
+              <a
                 onClick={closeSidebar}
-                to="/about"
+                href="#about"
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 About
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/domain"
+              <a
+                href="#domain"
                 onClick={closeSidebar}
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 Domain
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/schedule"
+              <a
+                href="#schedule"
                 onClick={closeSidebar}
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 Schedule
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
+              <a
                 onClick={closeSidebar}
-                to="/prizes"
+                href="#prizes"
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 Prizes
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
+              <a
+                href="#sponsors"
                 onClick={closeSidebar}
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 Sponsors
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
+              <a
                 onClick={closeSidebar}
-                to="/team"
+                href="#team"
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 Team
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/faq"
+              <a
+                href="#faq"
                 onClick={closeSidebar}
                 className="sideLinks"
                 activeClassName="activeLink"
               >
                 FAQ
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/contact"
+              <a
+                href="#contact"
                 className="sideLinks"
                 onClick={closeSidebar}
                 activeClassName="activeLink"
               >
                 Contact
-              </NavLink>
+              </a>
             </li>
           </ul>
           <ul className="navList">
             <li>
-              <NavLink
-                to="/home"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
+              <a href="#home" className="navLinks" activeClassName="activeLink">
                 Home
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/about"
+              <a
+                href="#about"
                 className="navLinks"
                 activeClassName="activeLink"
               >
                 About
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/domain"
+              <a
+                href="#domain"
                 className="navLinks"
                 activeClassName="activeLink"
               >
                 Domain
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/schedule"
+              <a
+                href="#schedule"
                 className="navLinks"
                 activeClassName="activeLink"
               >
                 Schedule
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/prizes"
+              <a
+                href="#prizes"
                 className="navLinks"
                 activeClassName="activeLink"
               >
                 Prizes
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/sponsors"
+              <a
+                href="#sponsors"
                 className="navLinks"
                 activeClassName="activeLink"
               >
-                SponsorsLink
-              </NavLink>
+                Sponsors
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/team"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
+              <a href="#team" className="navLinks" activeClassName="activeLink">
                 Team
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/faq"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
+              <a href="#faq" className="navLinks" activeClassName="activeLink">
                 FAQ
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/contact"
+              <a
+                href="#contact"
                 className="navLinks"
                 activeClassName="activeLink"
               >
                 Contact
-              </NavLink>
+              </a>
             </li>
             <li>
               <NavLink className="navLinks menu-btn">
@@ -221,6 +204,43 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+          <nav className="nav-elements">
+            <ul className="sidebar">
+              <li className="clos-btn">
+                <svg
+                  onClick={closeSidebar}
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="30"
+                  viewBox="0 -960 960 960"
+                  width="30"
+                >
+                  <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+              </li>
+              <li>
+                <a href="#About">About</a>
+              </li>
+              <li>
+                <a href="#Schedule">Schedule</a>
+              </li>
+              <li>
+                <a href="#Prizes">Prizes</a>
+              </li>
+              <li>
+                <a href="#Sponsors">Sponsors</a>
+              </li>
+              <li>
+                <a href="#FAQ">FAQ</a>
+              </li>
+              <li>
+                <a href="#EventTeam">EventTeam</a>
+              </li>
+              <li>
+                <a href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
