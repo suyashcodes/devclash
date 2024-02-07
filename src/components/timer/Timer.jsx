@@ -47,7 +47,7 @@ const Timer = () => {
         <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
         <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
       </div>
-      <h1 className="slogan">INDIA'S BIGGEST TECH CLASH</h1>
+      <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1>
       <div className="timerContainer">
         <div className="timerCont">
           <h2 className="timerTime">{days}</h2>
