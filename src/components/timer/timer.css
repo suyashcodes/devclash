@@ -9,6 +9,7 @@
   min-height: 100vh;
   /* padding-top: 70px; */
   margin-bottom: 20px;
+  margin-top: 70px;
 }
 
 .headingCont {
@@ -17,7 +18,45 @@
   align-items: center;
   width: 70%;
   margin-bottom: 5%;
-} /*
+}
+.startingSlogan {
+  width: 60%;
+  font-family: myFont;
+  color: rgb(207, 193, 189);
+  font-size: 24px;
+  margin: 50px 15px 40px 15px;
+  text-align: center;
+  animation: zoomm 4s;
+}
+.buttonCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registerButton1 {
+  font-family: "Oswald", sans-serif;
+  font-family: "Press Start 2P", system-ui;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background-color: rgb(251, 112, 62);
+  border-radius: 20px; /* Adjust the border-radius to your preference */
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
+  animation: zoomm 4s;
+}
+
+.registerContainer1 {
+  margin-top: 45px;
+  width: 260px;
+  height: 50px;
+}
+
+/*
 @keyframes myfirst {
   0% {
     top: -40px;
@@ -324,7 +363,8 @@ partii:hover {
   width: 312px;
 }
 
-.b1, .b2 {
+.b1,
+.b2 {
   font-family: "Oswald", sans-serif;
   font-family: "Press Start 2P", system-ui;
   border: none;
@@ -394,35 +434,39 @@ partii:hover {
   }
 } */
 
-.buttonCont{
-  display:flex;
-  flex-direction:row;
+.b1 {
+  margin: 20px 0;
 }
-
-.b1{
-margin: 0 20px 0 0px;
-}
-.b2{
-  margin:0;
+.b2 {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
-  @media (max-width: 410px) {
-    .slogan {
-      font-size: 24px;
-    }
+  .startingSlogan {
+    width: 70%;
+    font-family: myFont;
+    color: rgb(207, 193, 189);
+    font-size: 24px;
+    margin: 20px 15px 20px 15px;
+    position: absolute;
+    top: 200px;
+  }
+  .slogan {
+    font-size: 24px;
   }
 
   .wrap-timer {
-    min-width: 100%;
+    width: 100%;
+    height: auto;
     align-items: center;
     padding-top: 70px;
+    gap: 50px;
     /* margin-bottom: 20px; */
   }
 
   .eventlogo {
     position: absolute;
-    top: 80px;
+    top: 50px;
     width: 100%;
   }
 

@@ -25,18 +25,12 @@ const Problems = () => {
     {
       question: "WEB3 DEVELOPMENT",
       projects: [
-        "Web3 Development Project 1",
-        "Web3 Development Project 2",
-        "Web3 Development Project 3",
+        "It's a broad problem statement. Any product or feature that requires randomness. For example a spin wheel",
         // Add more project titles as needed
       ],
       descriptions: {
-        "Web3 Development Project 1":
+        "It's a broad problem statement. Any product or feature that requires randomness. For example a spin wheel":
           "Description for Web3 Development Project 1",
-        "Web3 Development Project 2":
-          "Description for Web3 Development Project 2",
-        "Web3 Development Project 3":
-          "Description for Web3 Development Project 3",
         // Add descriptions for other projects
       },
     },

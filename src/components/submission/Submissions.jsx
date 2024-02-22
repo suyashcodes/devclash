@@ -1,4 +1,5 @@
 import React from "react";
+import "./submission.css";
 // import "./styles.css";
 
 export default function Submissions() {
@@ -21,16 +22,13 @@ export default function Submissions() {
       });
   }
   return (
-    <div className="App">
-      <h1>Contact Me form</h1>
-      <h2>
-        This demonstrates how to send data from a website form to Google sheet
-        in React or Vanilla jS
-      </h2>
+    <div className="FormCont">
+      <h1 className="title">Project Submission Form</h1>
+      <h3 className="warn">Enter the accurate team name and id</h3>
       <div>
         <form className="form" onSubmit={(e) => Submit(e)}>
-          <input placeholder="Your Team Name" name="Name" type="text" />
-          <input placeholder="Project Link" name="Link" type="text" />
+          <input placeholder="Your Team Name" name="TeamName" type="text" />
+          <input placeholder="Project Link" name="Links" type="text" />
           {/* <input placeholder="Your Message" name="Message" type="text" /> */}
           <input name="Name" type="submit" />
         </form>
