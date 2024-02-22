@@ -13,7 +13,7 @@ const Sponsors = () => {
         <img className="logo" src="assets/pultopehd.png" alt="" />
         <img className="logo solana" src="assets/solanahd.png" alt="" />
         <img className="logo rr polygon" src="assets/acampusaihd.png" alt="" />
-        <img className="logo pun" src="assets/punekarnewshd.png" alt="" />
+        <img className="logo pun" src="assets/punekar.png" alt="" />
         <img className="logo polygon" src="assets/campustimeshd.png" alt="" />
         <img className="logo rr" src="assets/devfoliohd.png" alt="" />
       </div>
