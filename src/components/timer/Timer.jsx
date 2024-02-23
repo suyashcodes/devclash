@@ -15,7 +15,7 @@ const Timer = () => {
   const [showSubmission, setShowSubmission] = useState(false);
 
   useEffect(() => {
-    const registrationDeadline = new Date("2024-02-10T10:00:00");
+    const registrationDeadline = new Date("2024-04-10T10:00:00");
 
     const calculateTimeRemaining = () => {
       const currentTime = new Date();
@@ -116,7 +116,7 @@ const Timer = () => {
           <div className="timerContainer">
             <div className="timerCont">
               <h2 className="timerTime">{timeRemaining.days}</h2>
-              <h6 className="timerHead">DAYS</h6>
+              <h6 className="timerHead">Days</h6>
             </div>
             <div className="timerCont">
               <h2 className="timerTime">{timeRemaining.hours}</h2>
