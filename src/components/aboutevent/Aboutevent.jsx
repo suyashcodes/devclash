@@ -62,7 +62,7 @@ const Aboutevent = () => {
         <div className="aboutImg">
           <img
             className="aboutUsImage"
-            src={"./assets/Devkrafttrans.png"}
+            src={"./assets/avinyalogo.png"}
             alt="Google Map showing event location"
           />
         </div>
