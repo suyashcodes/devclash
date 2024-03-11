@@ -6,7 +6,7 @@ const Video = () => {
   return (
     <div className="video-background">
       <video autoPlay loop muted playsInline className="video-element">
-        <source src="assets/Finalbg.mp4" type="video/mp4" />
+        <source src="assets/avinyabg.mp4" type="video/mp4" />
         {/* Add additional source elements for different video formats if needed */}
       </video>
     </div>
