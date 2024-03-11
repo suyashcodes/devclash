@@ -16,10 +16,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(62, 65, 251, 0.1);
+  background-color: rgba(18, 6, 71, 0.500);
+  /* background-color: rgba(62, 65, 251, 0.500); */
   border-radius: 10px;
 
-  box-shadow: 1px 1px 5px 3px rgba(251, 112, 62, 0.3);
+  box-shadow: 1px 1px 5px 3px rgba(62, 150, 251, 0.51);
   margin-right: 20px; /* Add margin to the right of each eventSection */
 }
 
@@ -101,12 +102,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(18, 6, 71, 0.9);
+  background-color: rgba(18, 6, 71, 0.500);
   border-radius: 10px;
   margin-right: 20px;
   padding: 10px;
 
-  box-shadow: 1px 1px 5px 3px rgba(251, 112, 62, 0.3);
+  box-shadow: 1px 1px 5px 3px rgba(62, 150, 251, 0.51);
   /* margin-left: 30px; */
 }
 .aboutHeading {
