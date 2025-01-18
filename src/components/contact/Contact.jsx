@@ -44,13 +44,7 @@ const Contact = () => {
           >
             <img className="icon" src="./assets/whtsp3.png" alt="location" />
           </a>
-          <a
-            href={"mailto:devkraftclub@gmail.com"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img className="icon" src="./assets/email2.png" alt="location" />
-          </a>
+          
           <a
             href={"https://www.linkedin.com/company/dev-kraft/mycompany/"}
             target="_blank"
@@ -58,8 +52,22 @@ const Contact = () => {
           >
             <img className="icon" src="./assets/linkedin2.png" alt="location" />
           </a>
+          <a
+            href={"https://www.instagram.com/devkraft.dpu?igsh=ZjZ6bjZpeTlrdGo2"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="icon invert" src="./assets/instagram2.png" alt="location" />
+          </a>
+          <a
+            href={"https://x.com/devkraftdpu"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="icon invert" src="./assets/twitter.png" alt="location" />
+          </a>
         </div>
-        <h3 className="copyright">Design and Developed by Devkraft &copy;</h3>
+        <h3 className="copyright">Design and Developed by Team Devkraft &copy;</h3>
       </div>
     </div>
   );
