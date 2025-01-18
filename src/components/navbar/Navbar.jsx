@@ -161,7 +161,7 @@ const Navbar = () => {
                 Prizes
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#sponsors"
                 className="navLinks"
@@ -169,7 +169,7 @@ const Navbar = () => {
               >
                 Sponsors
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#team" className="navLinks" activeClassName="activeLink">
                 Team

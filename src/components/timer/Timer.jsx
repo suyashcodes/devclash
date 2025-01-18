@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./timer.css";
 import Problems from "../problemstatements/problemstat";
 import Submission from "../submission/Submissions";
+import { FormatIndentDecrease } from "@mui/icons-material";
 
 const Timer = () => {
   const [timeRemaining, setTimeRemaining] = useState({
@@ -13,9 +14,10 @@ const Timer = () => {
   const [hackathonStarted, setHackathonStarted] = useState(false);
   const [showProblems, setShowProblems] = useState(false);
   const [showSubmission, setShowSubmission] = useState(false);
+  const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSeRh6N3xdmoum3nd2IVjxgBJi6TfwPaHYoMdx5T6axxPV3Q2w/viewform?usp=header"
 
   useEffect(() => {
-    const registrationDeadline = new Date("2024-02-10T10:00:00");
+    const registrationDeadline = new Date("2025-02-09T10:00:00");
 
     const calculateTimeRemaining = () => {
       const currentTime = new Date();
@@ -135,7 +137,7 @@ const Timer = () => {
             <a
               className="partii"
               target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdetrl2h7xCSDs7yo3NeaPh0e1Y2dFvY2o3PwrgIHZ_ILG0wQ/viewform?usp=sf_link"
+              href={formLink}
               rel="noreferrer"
             >
               <button className="registerButton1">Participate Now</button>
