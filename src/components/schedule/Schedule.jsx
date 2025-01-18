@@ -7,7 +7,7 @@ const Schedule = () => {
       <div className="scheduleContainer">
         <div className="scheduleContent">
           <div className="scheduleContentDate">
-            <h1 className="scheduleContentDateCont">29</h1>
+            <h1 className="scheduleContentDateCont">19</h1>
             <h1 className="scheduleContentDateCont">JAN</h1>
           </div>
           <div className="scheduleContentDetails">
@@ -21,7 +21,7 @@ const Schedule = () => {
         </div>
         <div className="scheduleContent">
           <div className="scheduleContentDate">
-            <h1 className="scheduleContentDateCont">8</h1>
+            <h1 className="scheduleContentDateCont">7</h1>
             <h1 className="scheduleContentDateCont">FEB</h1>
           </div>
           <div className="scheduleContentDetails">
@@ -85,7 +85,7 @@ const Schedule = () => {
         </div> */}
         <div className="scheduleContent">
           <div className="scheduleContentDate">
-            <h1 className="scheduleContentDateCont">10</h1>
+            <h1 className="scheduleContentDateCont">8</h1>
             <h1 className="scheduleContentDateCont">FEB</h1>
           </div>
           <div className="scheduleContentDetails">
@@ -99,7 +99,7 @@ const Schedule = () => {
         </div>
         <div className="scheduleContent">
           <div className="scheduleContentDate">
-            <h1 className="scheduleContentDateCont">11</h1>
+            <h1 className="scheduleContentDateCont">9</h1>
             <h1 className="scheduleContentDateCont">FEB</h1>
           </div>
           <div className="scheduleContentDetails">
@@ -113,16 +113,15 @@ const Schedule = () => {
         </div>
         <div className="scheduleContent">
           <div className="scheduleContentDate">
-            <h1 className="scheduleContentDateCont">18</h1>
+            <h1 className="scheduleContentDateCont">20</h1>
             <h1 className="scheduleContentDateCont">FEB</h1>
           </div>
           <div className="scheduleContentDetails">
             <h3 className="scheduleContentDetailsTitle">
-              Winners Announcement and Prize Distribution
+              Winners Announcement
             </h3>
             <p className="scheduleContentDetailsDesc">
-              The moment of truth! Winners will be announced, and prizes will be
-              distributed. It's important to note that this date is subject to
+              The moment of truth! Winners will be announced. It's important to note that this date is subject to
               change based on project complexity. Stay tuned for updates.
             </p>
           </div>
