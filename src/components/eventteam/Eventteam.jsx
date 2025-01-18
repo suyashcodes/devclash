@@ -10,7 +10,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Vedant2.jpg"
+            src="./assets/vedant2.jpg"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">VEDANT PATIL</h2>
