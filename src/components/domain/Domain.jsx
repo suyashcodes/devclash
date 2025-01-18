@@ -20,7 +20,7 @@ const Domain = () => {
             </p>
           </div>
           <div className="trackBox">
-            <h5 className="trackHeading">AIML</h5>
+            <h5 className="trackHeading">AI-ML</h5>
             <p className="trackDesc">
               In the AIML domain, sharpen your skills in crafting intelligent
               algorithms and systems that mimic human-like learning. From
@@ -39,6 +39,12 @@ const Domain = () => {
               contracts, and decentralized applications (DApps) to revolutionize
               the way we interact online. This is your chance to be at the
               forefront of the internet's transformation.
+            </p>
+          </div>
+          <div className="trackBox">
+            <h5 className="trackHeading">UI/UX</h5>
+            <p className="trackDesc">
+            Step into the UI/UX domain of this hackathon and unleash your creativity in designing user-centric, visually stunning interfaces. From wireframes to prototypes, challenge yourself to create seamless, intuitive experiences that solve real-world problems. Let your designs speak louder than words!
             </p>
           </div>
         </div>
