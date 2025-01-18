@@ -48,6 +48,8 @@
   height: 100%;
   box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
   animation: zoomm 4s;
+
+  cursor: pointer;
 }
 
 .registerContainer1 {
