@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 // import Timer from "./components/timer/Timer";
@@ -12,11 +12,28 @@ import Prizes from "./components/prizes/Prizes";
 import Eventteam from "./components/eventteam/Eventteam";
 import Contact from "./components/contact/Contact";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-R7DHKR6XS6');
+
+
+function PageViewTracker() {
+    const location = useLocation();
+  
+    useEffect(() => {
+      ReactGA.pageview(location.pathname + location.search);
+    }, [location]);
+  
+    return null;
+  }
+
+
 
 const App = () => {
   return (
     <Router>
+       <PageViewTracker />
       <Video />
       <Navbar />
       <Routes>
