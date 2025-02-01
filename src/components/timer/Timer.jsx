@@ -11,7 +11,7 @@ const Timer = () => {
     minutes: 0,
     seconds: 0,
   });
-  const [hackathonStarted, setHackathonStarted] = useState(false);
+  const [hackathonStarted, setHackathonStarted] = useState(true);
   const [showProblems, setShowProblems] = useState(false);
   const [showSubmission, setShowSubmission] = useState(false);
   const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSeRh6N3xdmoum3nd2IVjxgBJi6TfwPaHYoMdx5T6axxPV3Q2w/viewform?usp=header"
