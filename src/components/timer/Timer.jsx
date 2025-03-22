@@ -11,13 +11,13 @@ const Timer = () => {
     minutes: 0,
     seconds: 0,
   });
-  const [hackathonStarted, setHackathonStarted] = useState(true);
-  const [showProblems, setShowProblems] = useState(false);
+  const [hackathonStarted, setHackathonStarted] = useState(false);
+  const [showProblems, setShowProblems] = useState(true);
   const [showSubmission, setShowSubmission] = useState(false);
   const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSeRh6N3xdmoum3nd2IVjxgBJi6TfwPaHYoMdx5T6axxPV3Q2w/viewform?usp=header"
 
   useEffect(() => {
-    const registrationDeadline = new Date("2025-02-09T10:00:00");
+    const registrationDeadline = new Date("2025-04-03T23:59:59");
 
     const calculateTimeRemaining = () => {
       const currentTime = new Date();
